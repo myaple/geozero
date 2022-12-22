@@ -1,5 +1,6 @@
 use crate::error::Result;
-use crate::{ColumnValue, CoordDimensions, FeatureProcessor, GeomProcessor, PropertyProcessor};
+use crate::{ColumnValue, CoordDimensions, GeomProcessor, PropertyProcessor};
+use crate::feature_processor::FeatureProcessor;
 use std::fmt::Display;
 use std::io::Write;
 
